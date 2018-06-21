@@ -2,12 +2,9 @@
 @import 'mixins.scss';
 body {
   font-family: $font-alt;
-
   position: relative;
-
   width: 100%;
   height: 100%;
-
   color: white;
   background-color: black;
 }
@@ -25,9 +22,7 @@ h5,
 h6 {
   font-family: $font;
   font-weight: 700;
-
   margin: 0 0 35px;
-
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -41,12 +36,10 @@ hr {
 p {
   font-size: 16px;
   line-height: 1.5;
-
   margin: 0 0 25px;
   @media(min-width: 768px) {
     font-size: 18px;
     line-height: 1.6;
-
     margin: 0 0 35px;
   }
 }
@@ -55,30 +48,23 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-
   color: $primary;
   &:focus,
   &:hover {
     text-decoration: none;
-
     color: darken($primary, 20%);
   }
 }
 
 #mainNav {
   font-family: $font;
-
   margin-bottom: 0;
-
   text-transform: uppercase;
-
   border-bottom: 1px solid fade-out(white, .7);
   background-color: black;
   .navbar-toggler {
     font-size: 14px;
-
     padding: 11px;
-
     color: white;
     border: 1px solid white;
   }
@@ -108,18 +94,15 @@ a {
   @media(min-width:992px) {
     padding-top: 20px;
     padding-bottom: 20px;
-
     -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     letter-spacing: 1px;
-
     border-bottom: none;
     background: transparent;
     &.navbar-shrink {
       padding-top: 10px;
       padding-bottom: 10px;
-
       border-bottom: 1px solid fade-out(white, .7);
       background: black;
     }
@@ -135,15 +118,12 @@ a {
 
 .masthead {
   display: table;
-
   width: 100%;
   height: auto;
   padding: 200px 0;
-
   text-align: center;
-
   color: white;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("https://images.pexels.com/photos/943974/pexels-photo-943974.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("https://images.pexels.com/photos/943974/pexels-photo-943974.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -151,10 +131,8 @@ a {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  
   .intro-body {
     display: table-cell;
-
     vertical-align: middle;
     .brand-heading {
       font-size: 50px;
@@ -179,26 +157,24 @@ a {
 
 .btn-circle {
   font-size: 26px;
-
   width: 55px;
   height: 55px;
   margin-top: 15px;
   line-height: 45px;
-
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-
   color: white;
   border: 2px solid white;
   border-radius: 100% !important;
   background: transparent;
-  &:focus,
-  &:hover {
-    color: white;
-    outline: none;
-    background: fade-out(white, .9);
-  }
+}
+
+.btn-circle:focus,
+.btn-circle:hover {
+  color: white;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .content-section {
@@ -208,7 +184,7 @@ a {
 
 .maestro-section {
   color: white;
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
   background-repeat: no-repeat;
   background-color: black;
   -webkit-background-size: cover;
@@ -227,16 +203,14 @@ a {
 .btn {
   font-family: $font;
   font-weight: 400;
-
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
-
   border-radius: 0;
-/*Removes default blue shadow glow*/
+  /*Removes default blue shadow glow*/
   outline: none;
-  box-shadow:none !important;
+  box-shadow: none !important;
 }
 
 .btn-default {
@@ -260,7 +234,6 @@ ul.banner-social-buttons {
   @media(max-width:767px) {
     li {
       display: block;
-
       margin-bottom: 20px;
       padding: 0;
       &:last-child {
@@ -272,12 +245,11 @@ ul.banner-social-buttons {
 
 .title-frame {
   background: $primary;
-
 }
 
 #contacts {
   padding-top: 2rem;
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("../img/BBB.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/BBB.jpg");
   background-repeat: no-repeat;
   background-color: black;
   -webkit-background-size: cover;
@@ -286,14 +258,12 @@ ul.banner-social-buttons {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  
 }
 
 footer {
   padding: 50px 0;
   p {
     font-size: 14px;
-
     margin: 0;
   }
 }

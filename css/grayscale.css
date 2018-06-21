@@ -101,7 +101,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("https://images.pexels.com/photos/943974/pexels-photo-943974.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("https://images.pexels.com/photos/943974/pexels-photo-943974.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -138,10 +138,12 @@ a {
   border: 2px solid white;
   border-radius: 100% !important;
   background: transparent; }
-  .btn-circle:focus, .btn-circle:hover {
-    color: white;
-    outline: none;
-    background: rgba(255, 255, 255, 0.1); }
+
+.btn-circle:focus,
+.btn-circle:hover {
+  color: white;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1); }
 
 .content-section {
   padding-top: 150px;
@@ -149,7 +151,7 @@ a {
 
 .maestro-section {
   color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
   background-repeat: no-repeat;
   background-color: black;
   -webkit-background-size: cover;
@@ -203,7 +205,7 @@ ul.banner-social-buttons {
 
 #contacts {
   padding-top: 2rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("../img/BBB.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/BBB.jpg");
   background-repeat: no-repeat;
   background-color: black;
   -webkit-background-size: cover;
