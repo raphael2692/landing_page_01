@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Cinzel|Open+Sans");
 body {
-  font-family: "Cinzel", serif;
+  font-family: "Open Sans", sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
@@ -24,7 +24,9 @@ h6 {
   text-transform: uppercase; }
 
 hr {
-  background-color: #9D0133; }
+  background-color: #9D0133;
+  border: none;
+  height: 3px; }
 
 p {
   font-size: 16px;
@@ -99,12 +101,14 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("https://images.pexels.com/photos/943974/pexels-photo-943974.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
   .masthead .intro-body {
     display: table-cell;
     vertical-align: middle; }
@@ -143,7 +147,7 @@ a {
   padding-top: 150px;
   padding-bottom: 150px; }
 
-.download-section {
+.maestro-section {
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
   background-repeat: no-repeat;
@@ -155,17 +159,10 @@ a {
   background-attachment: fixed;
   background-position: center; }
 
-#map {
-  width: 100%;
-  height: 300px; }
+.card {
+  background: rgba(0, 0, 0, 0.3);
+  color: white; }
 
-@media (min-width: 992px) {
-  .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px; }
-
-  #map {
-    height: 350px; } }
 .btn {
   font-family: "Cinzel", serif;
   font-weight: 400;
@@ -173,7 +170,10 @@ a {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
-  border-radius: 0; }
+  border-radius: 0;
+  /*Removes default blue shadow glow*/
+  outline: none;
+  box-shadow: none !important; }
 
 .btn-default {
   color: #9D0133;
@@ -198,9 +198,12 @@ ul.banner-social-buttons {
       ul.banner-social-buttons li:last-child {
         margin-bottom: 0; } }
 
+.title-frame {
+  background: #9D0133; }
+
 #contacts {
   padding-top: 2rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("../img/BBB.jpg");
   background-repeat: no-repeat;
   background-color: black;
   -webkit-background-size: cover;
