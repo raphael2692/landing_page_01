@@ -6,14 +6,14 @@ Basata sul template [greyscale](https://startbootstrap.com/template-overviews/gr
 
 ### Main technologies/sources utilized:
 
-*html5
-*css
-*js
-*Bootstrap 4
-*SASS
-*Fawesome
-*Google font
-*Pexels (cover image, attribution free)
+* html5
+* css
+* js
+* Bootstrap 4
+* SASS
+* Fawesome
+* Google font
+* Pexels (cover image, attribution free)
 
 ### License
 
