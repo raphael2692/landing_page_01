@@ -157,9 +157,7 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center; }
+  background-size: cover; }
 
 .card {
   background: rgba(0, 0, 0, 0.3);
@@ -211,9 +209,7 @@ ul.banner-social-buttons {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center; }
+  background-size: cover; }
 
 footer {
   padding: 50px 0; }
