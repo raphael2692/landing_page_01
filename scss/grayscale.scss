@@ -184,6 +184,7 @@ a {
 
 .maestro-section {
   color: white;
+  height: 100%;
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
   background-repeat: no-repeat;
   background-color: black;
@@ -191,6 +192,8 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
+
 
 }
 
@@ -255,6 +258,7 @@ ul.banner-social-buttons {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
 
 footer {

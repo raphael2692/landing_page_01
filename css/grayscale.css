@@ -151,13 +151,15 @@ a {
 
 .maestro-section {
   color: white;
+  height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
   background-repeat: no-repeat;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .card {
   background: rgba(0, 0, 0, 0.3);
@@ -209,7 +211,8 @@ ul.banner-social-buttons {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 footer {
   padding: 50px 0; }
