@@ -186,10 +186,10 @@ a {
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
   background-repeat: no-repeat;
   background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;
   background-position: top center;
 }
 
@@ -212,7 +212,7 @@ a {
 }
 
 .btn-default {
-  color: $primary;
+  color: $primary;  
   border: 1px solid $primary;
   background-color: transparent;
   &:focus,
