@@ -183,7 +183,6 @@ a {
 
 .maestro-section {
   color: white;
-  height: 100%;
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
   background-repeat: no-repeat;
   background-color: black;
@@ -191,7 +190,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
 }
 
 .card {
@@ -248,7 +247,7 @@ ul.banner-social-buttons {
 
 #contacts {
   padding-top: 2rem;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/BBB.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/footer.jpg");
   background-repeat: no-repeat;
   background-color: black;
   -webkit-background-size: cover;
