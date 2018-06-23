@@ -4,10 +4,10 @@ $(document).ready(function () {
 
     $('.myButton').hover(
         function () {
-            $(this).addClass('animated pulse')
+            $(this).addClass('animated pulse infinite')
         },
         function () {
-            $(this).removeClass('animated pulse')
+            $(this).removeClass('animated pulse infinite')
         }
     )
 
