@@ -2,7 +2,7 @@
 
 Responsive *Landing page* realized for the sportive association 'ITKA Pisa', part of the international association [ITKA](http://www.itkataiji.com/).
 
-Basata sul template [greyscale](https://startbootstrap.com/template-overviews/grayscale/). 
+Based on the template [greyscale](https://startbootstrap.com/template-overviews/grayscale/). 
 
 ### Main technologies/sources utilized:
 
