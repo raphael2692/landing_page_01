@@ -1,6 +1,7 @@
-# ITKA PISA
+# landing_page_01
 
-Responsive *Landing page* realized for the sportive association 'ITKA Pisa', part of the international association [ITKA](http://www.itkataiji.com/).
+Responsive *Landing page* realized for a sportive association.
+
 
 Based on the template [greyscale](https://startbootstrap.com/template-overviews/grayscale/). 
 
