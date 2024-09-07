@@ -12,6 +12,7 @@ body {
 html {
   width: 100%;
   height: 100%;
+
 }
 
 h1,
@@ -120,7 +121,7 @@ a {
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
+  // padding: 200px 0;
   text-align: center;
   color: white;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/cover.jpg");
@@ -183,14 +184,14 @@ a {
 
 .maestro-section {
   color: white;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
+  // background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/ilmaestro.jpg");
   background-repeat: no-repeat;
   background-color: black;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  -o-background-size: auto;
-  background-size: auto;
-  background-position: top center;
+  // -webkit-background-size: auto;
+  // -moz-background-size: auto;
+  // -o-background-size: auto;
+  // background-size: auto;
+  // background-position: top center;
 }
 
 .card {
